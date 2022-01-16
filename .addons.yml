@@ -2,22 +2,22 @@
 channel: edge
 addons:
   nextcloud:
-    repository: haberda/nextcloud-addon
+    repository: catadiel/nextcloud-addon
     target: nextcloud
-    image: ghcr.io/haberda/nextcloud/{arch}
+    image: ghcr.io/catadiel/nextcloud/{arch}
   signal_messenger:
-    repository: haberda/signal-addon
+    repository: catadiel/signal-addon
     target: signal
-    image: ghcr.io/haberda/signal_messenger/{arch}
+    image: ghcr.io/catadiel/signal_messenger/{arch}
   jackett:
-    repository: haberda/jackett-addon
+    repository: catadiel/jackett-addon
     target: jackett
-    image: ghcr.io/haberda/jackett/{arch}
+    image: ghcr.io/catadiel/jackett/{arch}
   emby:
-    repository: haberda/emby-addon
+    repository: catadiel/emby-addon
     target: emby
-    image: ghcr.io/haberda/emby/{arch}
+    image: ghcr.io/catadiel/emby/{arch}
   transmission:
-    repository: haberda/hassio-addon-transmission
+    repository: catadiel/hassio-addon-transmission
     target: transmission
-    image: ghcr.io/haberda/transmission/{arch}
+    image: ghcr.io/catadiel/transmission/{arch}
